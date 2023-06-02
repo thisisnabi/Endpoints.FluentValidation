@@ -16,6 +16,7 @@
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<PackageProjectUrl>https://github.com/thisisnabi/Endpoints.FluentValidation</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/thisisnabi/Endpoints.FluentValidation</RepositoryUrl>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>

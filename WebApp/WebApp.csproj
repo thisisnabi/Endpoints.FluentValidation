@@ -7,11 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FluentValidation" Version="11.5.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Endpoints.FluentValidation\Endpoints.FluentValidation.csproj" />
+    <PackageReference Include="Endpoints.FluentValidation" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
