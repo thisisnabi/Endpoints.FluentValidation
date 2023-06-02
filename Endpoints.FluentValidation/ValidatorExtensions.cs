@@ -1,4 +1,4 @@
-﻿namespace Endpoints.FluentValidation;
+﻿namespace FluentValidation;
 
 public static class ValidatorExtensions
 {

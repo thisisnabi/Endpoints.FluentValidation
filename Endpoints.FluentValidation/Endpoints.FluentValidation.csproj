@@ -4,7 +4,18 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	
+	  
+	<Title>Endpoints FluentValidation</Title>
+	<Version>1.0.0</Version>
+	<Authors>thisisnabi</Authors>
+	<Company>thisisnabi</Company>
+	<Product>Endpoints.FluentValidation</Product>
+	<Copyright>2023</Copyright>
+	<Description>Super Simplify validation Minimal APIs in ASP.NET Core 7 or later with Short-circuit endpoint executions.</Description>
+	<PackageTags>validation;fluent-validation;ASP.NET Core;endpoints;minimal-apis</PackageTags>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<PackageProjectUrl>https://github.com/thisisnabi/Endpoints.FluentValidation</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/thisisnabi/Endpoints.FluentValidation</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

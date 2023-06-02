@@ -1,5 +1,5 @@
 using WebApp;
-using Endpoints.FluentValidation;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 

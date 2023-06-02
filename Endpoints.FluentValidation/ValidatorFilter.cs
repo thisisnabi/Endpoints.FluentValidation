@@ -1,5 +1,5 @@
 ﻿
-namespace Endpoints.FluentValidation;
+namespace FluentValidation;
 
 public class ValidatorFilter<T> : IEndpointFilter
 {
@@ -18,7 +18,7 @@ public class ValidatorFilter<T> : IEndpointFilter
             var validationResult = await _validator.ValidateAsync(inputData);
             if (!validationResult.IsValid)
             {
-                return Results.ValidationProblem(validationResult.ToDictionary(),
+                return Microsoft.AspNetCore.Http.Results.ValidationProblem(validationResult.ToDictionary(),
                     statusCode: (int)HttpStatusCode.UnprocessableEntity);
             }
         }
