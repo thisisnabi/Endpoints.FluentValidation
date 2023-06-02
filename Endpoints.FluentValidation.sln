@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Endpoints.FluentValidation", "Endpoints.FluentValidation\Endpoints.FluentValidation.csproj", "{101D2F69-9247-417B-81F2-1FC8D0D122C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Endpoints.FluentValidation", "Endpoints.FluentValidation\Endpoints.FluentValidation.csproj", "{101D2F69-9247-417B-81F2-1FC8D0D122C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{B29A38BA-58DC-44CF-91E3-E6476FA7E9AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{101D2F69-9247-417B-81F2-1FC8D0D122C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{101D2F69-9247-417B-81F2-1FC8D0D122C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{101D2F69-9247-417B-81F2-1FC8D0D122C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29A38BA-58DC-44CF-91E3-E6476FA7E9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29A38BA-58DC-44CF-91E3-E6476FA7E9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29A38BA-58DC-44CF-91E3-E6476FA7E9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29A38BA-58DC-44CF-91E3-E6476FA7E9AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
